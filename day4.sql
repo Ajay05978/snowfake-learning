@@ -1,7 +1,6 @@
-select muscle_group, count(*) as total_members
-from gym_members
-group by muscle_group
-order by total_members desc;
-select member_name,workout_days,trainer_name
-from gym_members
-where workout_days > 4;
+create table department(
+  dept_id int primary key,
+  dept_name string(50),
+  );
+insert into department values (10,'hr'),(20,'it'),(30,'finance'),(40,'unknown');
+select*from department;
