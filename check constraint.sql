@@ -13,3 +13,4 @@ select*from workers_check;
 alter table workers_check add constraint chk_gender check (gender in ('male','female','others'));
   /** to drop constraint**/
 alter table workers_check drop constraint chk_age;
+ select*from workers_check;
